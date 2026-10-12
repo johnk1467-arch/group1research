@@ -98,7 +98,7 @@ function escapeHtml($value)
         table {
             border-collapse: collapse;
             margin-top: 1rem;
-            width: 100%;
+            width: 120%;
         }
 
         th,
@@ -152,8 +152,8 @@ function escapeHtml($value)
                                 <td><?= escapeHtml($student["email"]) ?></td>
                                 <td><?= escapeHtml($student["course"]) ?></td>
                                 <td><?= escapeHtml($student["created_at"]) ?></td>
-                                <td><?= escapeHtml($student["first_name"]) ?></td>
                                 <td><?= escapeHtml($student["last_name"]) ?></td>
+                                <td><?= escapeHtml($student["first_name"]) ?></td>
                             </tr>
                         <?php endforeach; ?>
                     </tbody>
