@@ -82,12 +82,12 @@ function escapeHtml($value)
     <style>
         body {
             font-family: Arial, sans-serif;
-            margin: 2rem;
+            margin: 3rem;
         }
 
         button {
             cursor: pointer;
-            margin-right: 0.5rem;
+            margin-right: 0.7rem;
             padding: 0.6rem 1rem;
         }
 
@@ -104,12 +104,12 @@ function escapeHtml($value)
         th,
         td {
             border: 1px solid #ccc;
-            padding: 0.6rem;
+            padding: 0.9rem;
             text-align: left;
         }
 
         th {
-            background: #f2f2f2;
+            background: #ADD8E6;
         }
     </style>
 </head>
